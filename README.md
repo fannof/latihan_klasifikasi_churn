@@ -141,3 +141,7 @@ Selanjutnya, distribusi fitur kategorikal diperiksa dengan menggunakan grafik ba
 Langkah berikutnya menghasilkan heatmap korelasi yang memvisualisasikan hubungan antar fitur numerik dalam dataset. Dengan ukuran gambar 12 × 10 inci, heatmap ini menggunakan skema warna 'coolwarm' untuk menampilkan kekuatan korelasi antara fitur-fitur, dari korelasi negatif (biru) hingga positif (merah). Nilai korelasi ditampilkan pada setiap sel dengan format dua desimal, sementara garis pembatas yang tipis antara sel memudahkan pembacaan. 
 
 ![latihan4](https://github.com/user-attachments/assets/e924f606-06b4-4346-bde2-2e19cc614d6f)
+
+Pairplot ini menyajikan grafik scatter plot untuk setiap pasangan fitur numerik yang memungkinkan visualisasi hubungan antara fitur-fitur tersebut. Selain itu, diagonal pairplot menampilkan histogram dari distribusi masing-masing fitur. Pairplot membantu dalam mengidentifikasi pola, korelasi, dan distribusi di antara fitur-fitur numerik, serta mendeteksi potensi outlier atau hubungan non-linier yang mungkin ada. Berikut hasilnya.
+
+![latihan5](https://github.com/user-attachments/assets/f518a735-b1a2-4576-9ed5-7cdcbecf57e1)
