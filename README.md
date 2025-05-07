@@ -138,3 +138,6 @@ Selanjutnya, distribusi fitur kategorikal diperiksa dengan menggunakan grafik ba
 
 ![latihan3](https://github.com/user-attachments/assets/e725421a-a928-4e8d-ab4f-ef45cb76c00a)
 
+Langkah berikutnya menghasilkan heatmap korelasi yang memvisualisasikan hubungan antar fitur numerik dalam dataset. Dengan ukuran gambar 12 × 10 inci, heatmap ini menggunakan skema warna 'coolwarm' untuk menampilkan kekuatan korelasi antara fitur-fitur, dari korelasi negatif (biru) hingga positif (merah). Nilai korelasi ditampilkan pada setiap sel dengan format dua desimal, sementara garis pembatas yang tipis antara sel memudahkan pembacaan. 
+
+![latihan4](https://github.com/user-attachments/assets/e924f606-06b4-4346-bde2-2e19cc614d6f)
