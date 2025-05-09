@@ -183,6 +183,13 @@ Pada tahap ini, hasil dari evaluasi berbagai model klasifikasi yang telah ditera
   Sebaliknya, ada 265 pelanggan yang sebenarnya churn, tetapi tidak terdeteksi oleh model (false negative) dan 1520 pelanggan yang benar-benar tidak churn dan diprediksi dengan benar (true negative). Hasil ini memberikan gambaran tentang kemampuan model KNN dalam mengklasifikasikan pelanggan dengan tepat.
 
 - Hasil Confusion Matrix Algoritma Decision Tree
+
+  Untuk Decision Tree Classifier, hasil evaluasi menunjukkan distribusi prediksi sebagai berikut: ada 1360 true negative (TN) yang berarti pelanggan tidak churn terdeteksi dengan benar. Sebanyak 247 false positive (FP) menunjukkan bahwa pelanggan yang tidak churn salah diklasifikasikan sebagai churn.
+  
+![latihan9](https://github.com/user-attachments/assets/8eed64c2-0b1c-4ca9-a624-61e89bf12808)
+
+  Selain itu, 193 false negative (FN) menggambarkan pelanggan yang sebenarnya churn, tetapi tidak teridentifikasi oleh model. Akhirnya, model berhasil mendeteksi 200 true positive (TP), yaitu pelanggan yang benar-benar churn. Analisis ini memberikan wawasan tentang kinerja model dalam memprediksi churn dan area yang perlu diperbaiki.
+  
 - Hasil Confusion Matrix Algoritma Random Forest
 - Hasil Confusion Matrix Algoritma SVM
 - Hasil Confusion Matrix Algoritma Naive Bayes
