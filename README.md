@@ -165,3 +165,7 @@ Pada langkah ini, data numerik dinormalisasi menggunakan MinMaxScaler untuk mema
 ## Langkah 6: Pelatihan Model 
 
 Pada langkah ini, setiap algoritma klasifikasi dilatih secara terpisah dengan menggunakan data pelatihan. Model KNeighborsClassifier, DecisionTreeClassifier, RandomForestClassifier, SVC, dan GaussianNB dipersiapkan serta dilatih. Setelah proses pelatihan selesai, model-model ini siap untuk diuji dengan data uji. Pesan "Model training selesai." menandakan bahwa semua model sudah berhasil dilatih.
+
+## Langkah 7: Evaluasi Model
+
+Pada langkah ini, setiap model dievaluasi untuk mengukur kinerjanya. Fungsi evaluate_model digunakan untuk menghitung berbagai metrik performa, seperti matriks kebingungannya (confusion matrix), serta skor akurasi, presisi, recall, dan F1-Score. Hasil evaluasi dari setiap model—yaitu K-Nearest Neighbors (KNN), Decision Tree (DT), Random Forest (RF), Support Vector Machine (SVM), dan Naive Bayes (NB)—dikumpulkan dalam sebuah DataFrame yang merangkum semua metrik penting tersebut. DataFrame ini kemudian ditampilkan untuk memberikan gambaran jelas mengenai kinerja masing-masing model.
