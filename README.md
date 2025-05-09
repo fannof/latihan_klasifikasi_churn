@@ -186,10 +186,17 @@ Pada tahap ini, hasil dari evaluasi berbagai model klasifikasi yang telah ditera
 
   Untuk Decision Tree Classifier, hasil evaluasi menunjukkan distribusi prediksi sebagai berikut: ada 1360 true negative (TN) yang berarti pelanggan tidak churn terdeteksi dengan benar. Sebanyak 247 false positive (FP) menunjukkan bahwa pelanggan yang tidak churn salah diklasifikasikan sebagai churn.
   
-![latihan9](https://github.com/user-attachments/assets/8eed64c2-0b1c-4ca9-a624-61e89bf12808)
+  ![latihan9](https://github.com/user-attachments/assets/8eed64c2-0b1c-4ca9-a624-61e89bf12808)
 
   Selain itu, 193 false negative (FN) menggambarkan pelanggan yang sebenarnya churn, tetapi tidak teridentifikasi oleh model. Akhirnya, model berhasil mendeteksi 200 true positive (TP), yaitu pelanggan yang benar-benar churn. Analisis ini memberikan wawasan tentang kinerja model dalam memprediksi churn dan area yang perlu diperbaiki.
   
 - Hasil Confusion Matrix Algoritma Random Forest
+
+  Untuk Random Forest Classifier, hasil evaluasi menunjukkan distribusi prediksi sebagai berikut: ada 1557 true negative (TN) yang berarti pelanggan tidak churn terdeteksi dengan benar. Sebanyak 50 false positive (FP) menunjukkan pelanggan yang tidak churn salah diklasifikasikan sebagai churn.
+
+  ![latihan10](https://github.com/user-attachments/assets/55b1ab6a-e35e-4193-8a21-afed7987c92b)
+
+  Model ini juga menghasilkan 211 false negative (FN) yang menggambarkan pelanggan yang sebenarnya churn, tetapi tidak teridentifikasi oleh model. Terakhir, ada 182 true positive (TP), yaitu pelanggan benar-benar churn yang berhasil terdeteksi oleh model. Hasil ini memberikan gambaran tentang seberapa baik Random Forest dalam memprediksi churn dan menunjukkan bahwa model menangani masing-masing kelas.
+
 - Hasil Confusion Matrix Algoritma SVM
 - Hasil Confusion Matrix Algoritma Naive Bayes
