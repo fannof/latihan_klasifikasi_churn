@@ -158,3 +158,7 @@ Pada langkah ini, encoding diterapkan pada fitur kategorikal dalam dataset untuk
 
 ![latihan7](https://github.com/user-attachments/assets/060407e5-0f66-47d1-95d0-5ba026eb6f95)
 
+## Langkah 5: Data Splitting
+
+Pada langkah ini, data numerik dinormalisasi menggunakan MinMaxScaler untuk memastikan bahwa semua fitur numerik berada dalam rentang yang sama, yang dapat meningkatkan performa model. Setelah normalisasi, data dibagi menjadi fitur (X) dan target (y). Data kemudian dipisahkan menjadi set pelatihan dan set uji menggunakan train_test_split dengan 20% data digunakan untuk uji dan 80% untuk pelatihan. Bentuk dari set pelatihan dan set uji ditampilkan untuk memastikan bahwa pemisahan telah dilakukan dengan benar.
+
