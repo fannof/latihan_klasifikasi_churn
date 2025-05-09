@@ -146,3 +146,8 @@ Pairplot ini menyajikan grafik scatter plot untuk setiap pasangan fitur numerik 
 
 ![latihan5](https://github.com/user-attachments/assets/f518a735-b1a2-4576-9ed5-7cdcbecf57e1)
 
+Warna pada grafik ditetapkan menggunakan palet 'viridis' untuk memperjelas perbedaan antar kelas. Visualisasi ini membantu memahami seberapa seimbang atau tidak seimbang distribusi kelas target dalam dataset.
+
+![latihan6](https://github.com/user-attachments/assets/b354c8be-2c4e-4cf2-886d-e9c2293c0e2d)
+
+Pada bagian ini, terlihat adanya ketidakseimbangan antara jumlah pelanggan yang keluar (churn) dan yang tidak keluar dalam dataset. Ketidakseimbangan ini sering kali dapat memengaruhi performa model klasifikasi. 
