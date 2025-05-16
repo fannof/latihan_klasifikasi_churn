@@ -2,6 +2,8 @@
 
 ### Platform : Dicoding
 
+### Kelas : Belajar Machine Learning untuk Pemula
+
 ## Langkah 1: Mengimpor Library
 
 Pada langkah pertama, berbagai library yang diperlukan untuk menganalisis data dan membangun model machine learning akan diimpor. Berikut adalah penjelasan singkat dari masing-masing library yang diimpor.
