@@ -1,4 +1,4 @@
-# Latihan Studi Kasus: Klasifikasi Pelanggan untuk Churn pada Perusahaan XYZ (Dicoding Platform)
+# Latihan Studi Kasus: Klasifikasi Pelanggan untuk Churn pada Perusahaan XYZ
 
 ### Platform : Dicoding
 
