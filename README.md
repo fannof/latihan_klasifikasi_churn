@@ -6,6 +6,8 @@
 
 ### Modul : Supervised Learning - Klasifikasi
 
+### Dataset : [Churn Dataset](https://drive.google.com/uc?id=19IfOP0QmCHccMu8A6B2fCUpFqZwCxuzO)
+
 ## Langkah 1: Mengimpor Library
 
 Pada langkah pertama, berbagai library yang diperlukan untuk menganalisis data dan membangun model machine learning akan diimpor. Berikut adalah penjelasan singkat dari masing-masing library yang diimpor.
