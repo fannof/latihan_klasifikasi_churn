@@ -8,7 +8,7 @@
 
 ### Dataset : [Churn Dataset](https://drive.google.com/uc?id=19IfOP0QmCHccMu8A6B2fCUpFqZwCxuzO)
 
-## Langkah 1: Mengimpor Library
+## Mengimpor Library
 
 Pada langkah pertama, berbagai library yang diperlukan untuk menganalisis data dan membangun model machine learning akan diimpor. Berikut adalah penjelasan singkat dari masing-masing library yang diimpor.
 
@@ -68,7 +68,7 @@ Pada langkah pertama, berbagai library yang diperlukan untuk menganalisis data d
 
   Library ini menyediakan berbagai fungsi untuk mengevaluasi performa model, seperti confusion_matrix, accuracy_score, precision_score, recall_score, dan f1_score.
 
-## Langkah 2: Memuat Data
+## Memuat Data
 
 Pada langkah ini, data yang akan dianalisis diimpor dari Google Drive. Dimulai dengan menentukan ID unik file yang diunggah ke Google Drive, ID ini digunakan untuk membuat URL unduhan langsung yang memungkinkan akses file CSV melalui kode Python. Setelah URL terbentuk, file CSV dibaca dalam DataFrame menggunakan pustaka pandas, yang memungkinkan data disimpan dalam bentuk tabel dua dimensi. 
 
@@ -134,7 +134,7 @@ Berikut adalah penjelasan singkat setiap fitur dalam dataset.
 
   Label target yang menunjukkan pelanggan telah keluar dari layanan (1) atau tidak (0). Fitur ini merupakan variabel yang ingin diprediksi dalam model klasifikasi.
 
-## Langkah 3: Exploratory Data Analysis (EDA) 
+## Exploratory Data Analysis (EDA) 
   
 Exploratory Data Analysis (EDA) adalah tahap krusial dalam proses analisis data untuk memahami karakteristik, pola, dan hubungan antar fitur dalam dataset. Dalam tahap ini, distribusi fitur numerik pertama-tama dianalisis. Setiap fitur numerik divisualisasikan menggunakan histogram yang menunjukkan distribusi nilai-nilai dalam fitur tersebut. Histogram ini dilengkapi dengan kurva densitas untuk memberikan gambaran lebih jelas tentang pola distribusi data: apakah data terdistribusi normal atau mengalami skewness?. Berikut adalah distribusi fitur numerik pada dataset ini.
 
@@ -160,25 +160,25 @@ Warna pada grafik ditetapkan menggunakan palet 'viridis' untuk memperjelas perbe
 
 Pada bagian ini, terlihat adanya ketidakseimbangan antara jumlah pelanggan yang keluar (churn) dan yang tidak keluar dalam dataset. Ketidakseimbangan ini sering kali dapat memengaruhi performa model klasifikasi. 
 
-## Langkah 4: Label Encoder
+## Label Encoder
 
 Pada langkah ini, encoding diterapkan pada fitur kategorikal dalam dataset untuk mempersiapkan data bagi algoritma pembelajaran mesin. LabelEncoder digunakan untuk mengonversi nilai kategorikal menjadi format numerik yang dapat diproses oleh model. Kolom-kolom kategorikal, seperti 'Geography' dan 'Gender' diubah menjadi angka dengan menerapkan LabelEncoder. Setelah proses encoding, DataFrame ditampilkan kembali untuk memastikan bahwa perubahan telah diterapkan dengan benar. Berikut adalah hasil yang didapatkan.
 
 ![latihan7](https://github.com/user-attachments/assets/060407e5-0f66-47d1-95d0-5ba026eb6f95)
 
-## Langkah 5: Data Splitting
+## Data Splitting
 
 Pada langkah ini, data numerik dinormalisasi menggunakan MinMaxScaler untuk memastikan bahwa semua fitur numerik berada dalam rentang yang sama, yang dapat meningkatkan performa model. Setelah normalisasi, data dibagi menjadi fitur (X) dan target (y). Data kemudian dipisahkan menjadi set pelatihan dan set uji menggunakan train_test_split dengan 20% data digunakan untuk uji dan 80% untuk pelatihan. Bentuk dari set pelatihan dan set uji ditampilkan untuk memastikan bahwa pemisahan telah dilakukan dengan benar.
 
-## Langkah 6: Pelatihan Model 
+## Pelatihan Model 
 
 Pada langkah ini, setiap algoritma klasifikasi dilatih secara terpisah dengan menggunakan data pelatihan. Model KNeighborsClassifier, DecisionTreeClassifier, RandomForestClassifier, SVC, dan GaussianNB dipersiapkan serta dilatih. Setelah proses pelatihan selesai, model-model ini siap untuk diuji dengan data uji. Pesan "Model training selesai." menandakan bahwa semua model sudah berhasil dilatih.
 
-## Langkah 7: Evaluasi Model
+## Evaluasi Model
 
 Pada langkah ini, setiap model dievaluasi untuk mengukur kinerjanya. Fungsi evaluate_model digunakan untuk menghitung berbagai metrik performa, seperti matriks kebingungannya (confusion matrix), serta skor akurasi, presisi, recall, dan F1-Score. Hasil evaluasi dari setiap model—yaitu K-Nearest Neighbors (KNN), Decision Tree (DT), Random Forest (RF), Support Vector Machine (SVM), dan Naive Bayes (NB)—dikumpulkan dalam sebuah DataFrame yang merangkum semua metrik penting tersebut. DataFrame ini kemudian ditampilkan untuk memberikan gambaran jelas mengenai kinerja masing-masing model.
 
-## Langkah 8: Rangkuman Hasil dan Analisis 
+## Rangkuman Hasil dan Analisis 
 
 Pada tahap ini, hasil dari evaluasi berbagai model klasifikasi yang telah diterapkan pada dataset pelanggan dirangkum untuk memahami kinerja masing-masing model. Evaluasi ini mencakup metrik-metrik penting, seperti akurasi, presisi, recall, dan F1-Score, yang memberikan gambaran menyeluruh tentang kemampuan model dalam memprediksi pelanggan berpotensi churn. Dengan menganalisis metrik-metrik tersebut, dapat diketahui model yang paling efektif dalam mengidentifikasi pelanggan yang akan berhenti berlangganan, serta kekuatan dan kelemahan masing-masing model.
 
@@ -222,7 +222,7 @@ Pada tahap ini, hasil dari evaluasi berbagai model klasifikasi yang telah ditera
 
   Model ini juga menghasilkan 299 false negative (FN), menunjukkan pelanggan yang sebenarnya churn, tetapi tidak teridentifikasi sebagai churn. Terakhir, ada 94 true positive (TP), yaitu pelanggan benar-benar churn yang berhasil terdeteksi oleh model. Hasil ini menggambarkan performa Naive Bayes dalam mengidentifikasi pelanggan yang akan churn.
 
-## Langkah 9: Rangkuman Hasil
+## Rangkuman Hasil
 
 Berikut adalah ringkasan hasil evaluasi untuk masing-masing model klasifikasi.
 
